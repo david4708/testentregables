@@ -1,0 +1,27 @@
+.button{
+    /* background-color: red; */
+    /* padding:15px 10px; */
+    height:30px;
+    width: 30px;
+  
+    background-image: url("/images/ico-reloading.png");
+ 
+    display: flex;
+    margin: 0 auto;
+
+    align-content: center;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+background-size: cover;
+background-size: contain;
+    border-radius: 100%;
+    margin-top: 50px;
+    margin-bottom:50px;
+    cursor: pointer;
+    transition: background 200ms ease
+}
+.button:hover{
+  background-color:gray ;  
+}
+

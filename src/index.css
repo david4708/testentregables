@@ -1,0 +1,26 @@
+
+@import url('https://fonts.cdnfonts.com/css/digital-numbers');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body {
+    margin: 0;
+    /* width: auto;
+    height:auto; */
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-family: 'digital-numbers';
+  }
+  
+  *, *::after, *::before {
+    box-sizing: inherit;
+  }
+  
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+  }
+  

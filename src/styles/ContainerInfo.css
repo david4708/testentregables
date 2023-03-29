@@ -1,0 +1,132 @@
+
+.ContainerInfo{
+
+   
+    width: auto;
+    height:auto;
+
+
+}
+
+
+.ContainerInfo_title{
+    position: relative;
+    color: blueviolet;
+   
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+
+    text-transform: uppercase;
+
+    top: 20px;
+    left: 50%;
+    margin: auto;
+
+    transform: translateX(-50%);
+
+
+}
+
+.ContainerInfo_phrase{
+color: black;
+
+padding: 10px 10px;
+margin-left: 20%;
+margin-right: 20%;
+
+background-color: white;
+font-size: large;
+
+text-align: center;
+justify-content: center;
+margin-top: 200px;
+height: auto;
+background-repeat: no-repeat;
+background-position-x: center;
+background-position-y: center;
+background-position: center;
+display: flex;
+
+}
+
+.ContainerInfo_author{
+
+color:rgb(191, 238, 21);
+
+
+/* font-weight: lighter; */
+font-size:30px;
+text-align: center;
+padding: 20PX 20px;
+max-width: max-content;
+margin: auto ;
+position: absolute;
+padding-bottom: 50%;
+left: 50%;
+transform: translateX(-50%);
+
+}
+
+.ContainerPlanet{
+
+    visibility: visible;
+
+    /* padding: 10px;
+    margin: auto; */
+    width: auto;
+    height:auto;
+
+    background-repeat: no-repeat;
+
+    padding-top:0%;
+
+    display: flex;
+
+}
+
+.planeta1{
+    background-image: url("/public/images/planeta1.png"); 
+ 
+    position:relative;
+    align-self: center;
+    bottom: 0%;
+    margin: auto;
+  
+    block-size: 70%;
+    width: auto;
+    height:auto;
+    padding-top:47%;
+
+}
+ .planeta3{
+    background-image: url("/public/images/planeta3.png"); 
+    background-position-y:bottom;
+
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    align-self: center;
+    bottom: 0%;
+    margin: auto;
+
+    block-size: 70%;
+    width: auto;
+    height:auto;
+    padding-top:47%;
+}
+ .planeta4{
+
+    position: relative;
+    align-self: center;
+    bottom: 50%;
+    margin: auto;
+  
+    block-size: 70%;
+    width: auto;
+    height:auto;
+    padding-top:0%;
+    
+}
+ 
+
